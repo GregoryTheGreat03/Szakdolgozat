@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76b709805eec72647a1eeab523f4c192, type: 3}
+  m_Name: Antonium
+  m_EditorClassIdentifier: 
+  PREFAB: {fileID: 2601253752970386392, guid: 303ca002e35258b498d219362176badb, type: 3}
+  ID: 2
+  NAME: Antonium
+  AMOUNT: 50
+  MINING_TIME: 10
+  SIZE: 0.6

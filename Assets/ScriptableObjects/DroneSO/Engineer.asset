@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde622df25024d2428ebeeb0f5d32fbb, type: 3}
+  m_Name: Engineer
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 4152706005409619652, guid: bb033a86dda1fa54b9456a4e5e7a8c9e, type: 3}
+  NAME: Engineer
+  HEALTH: 20
+  DAMAGE: 0
+  RANGE: 2.5
+  COOLDOWN: 4
+  SPEED: 0.9
+  ENERGY_COST: 20
+  CORIUM_COST: 10
+  ANTONIUM_COST: 15
+  CONSTRUCTION_TIME: 90
+  HEALTH_BAR_POSITION: {x: 0, y: -1, z: 0}
+  HEALTH_BAR_SIZE: {x: 1, y: 0.15, z: 0}

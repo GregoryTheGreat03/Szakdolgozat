@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ecae5ad0340b5048bbd31cff07c8820, type: 3}
+  m_Name: HeavyTurret
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6752519282517137998, guid: 1abaea27cd0106143bef95da1b428494, type: 3}
+  NAME: Heavy Turret
+  HEALTH: 250
+  SIZE: 2
+  ENERGY_COST: 20
+  CORIUM_COST: 80
+  ANTONIUM_COST: 5
+  CONSTRUCTION_TIME: 25
+  DAMAGE: 20
+  RANGE: 10
+  COOLDOWN: 2

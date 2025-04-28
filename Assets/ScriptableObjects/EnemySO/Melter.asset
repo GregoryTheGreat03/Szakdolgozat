@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b4c161449d7874781d8275f0277ecf, type: 3}
+  m_Name: Melter
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 2099338637352410140, guid: a2ae3e6ff037aee4cbe72e2e428fb5bb, type: 3}
+  NAME: Melter
+  HEALTH: 5
+  DAMAGE: 50
+  RANGE: 0.1
+  COOLDOWN: 10
+  SPEED: 1.2
+  SIZE: 0.4
+  AGRO_RANGE: 100
+  WAVE_WEIGHT: 2
+  FIRST_SPAWNING_WAVE: 3

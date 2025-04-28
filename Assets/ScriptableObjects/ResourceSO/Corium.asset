@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76b709805eec72647a1eeab523f4c192, type: 3}
+  m_Name: Corium
+  m_EditorClassIdentifier: 
+  PREFAB: {fileID: 7702564861501824373, guid: 8c17c9816bb19e746803235bf28ba2cd, type: 3}
+  ID: 1
+  NAME: Corium
+  AMOUNT: 200
+  MINING_TIME: 3
+  SIZE: 0.6

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b4c161449d7874781d8275f0277ecf, type: 3}
+  m_Name: Breacher
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7950950277899632166, guid: f75dbfe671f90da428179fd659658773, type: 3}
+  NAME: Breacher
+  HEALTH: 100
+  DAMAGE: 20
+  RANGE: 2.2
+  COOLDOWN: 2
+  SPEED: 0.6
+  SIZE: 0.7
+  AGRO_RANGE: 100
+  WAVE_WEIGHT: 5
+  FIRST_SPAWNING_WAVE: 9

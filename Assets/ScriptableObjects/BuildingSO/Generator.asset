@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00aacb56baa146d40808dad65a0cc99c, type: 3}
+  m_Name: Generator
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 5432903517893932670, guid: f6c6f71ef97f05a4ba9aedb929494b04, type: 3}
+  NAME: Generator
+  HEALTH: 50
+  SIZE: 2
+  ENERGY_COST: 0
+  CORIUM_COST: 50
+  ANTONIUM_COST: 10
+  CONSTRUCTION_TIME: 20

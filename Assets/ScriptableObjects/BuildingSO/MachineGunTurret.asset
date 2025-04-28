@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ecae5ad0340b5048bbd31cff07c8820, type: 3}
+  m_Name: MachineGunTurret
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1696886610092101227, guid: 078a25e5cf3919f4bb5de81fa232c578, type: 3}
+  NAME: Machine Gun Turret
+  HEALTH: 100
+  SIZE: 1
+  ENERGY_COST: 5
+  CORIUM_COST: 25
+  ANTONIUM_COST: 0
+  CONSTRUCTION_TIME: 15
+  DAMAGE: 0.8
+  RANGE: 4
+  COOLDOWN: 0.2

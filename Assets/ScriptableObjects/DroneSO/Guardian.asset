@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde622df25024d2428ebeeb0f5d32fbb, type: 3}
+  m_Name: Guardian
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1894209097180905160, guid: bab596d10a342924687b4cbbc1eaefbc, type: 3}
+  NAME: Guardian
+  HEALTH: 100
+  DAMAGE: 20
+  RANGE: 22
+  COOLDOWN: 5
+  SPEED: 0.2
+  ENERGY_COST: 100
+  CORIUM_COST: 250
+  ANTONIUM_COST: 25
+  CONSTRUCTION_TIME: 300
+  HEALTH_BAR_POSITION: {x: 0, y: -2.3, z: 0}
+  HEALTH_BAR_SIZE: {x: 4, y: 0.15, z: 0}

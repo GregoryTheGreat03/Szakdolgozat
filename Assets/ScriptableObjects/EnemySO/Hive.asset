@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b4c161449d7874781d8275f0277ecf, type: 3}
+  m_Name: Hive
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 5145395151353344741, guid: 935b567b27f16ba438c1fd4d30d54174, type: 3}
+  NAME: Hive
+  HEALTH: 400
+  DAMAGE: 0
+  RANGE: 0
+  COOLDOWN: 50
+  SPEED: 0
+  SIZE: 3
+  AGRO_RANGE: 0
+  WAVE_WEIGHT: 10
+  FIRST_SPAWNING_WAVE: 30
