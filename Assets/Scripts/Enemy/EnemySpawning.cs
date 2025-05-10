@@ -169,9 +169,6 @@ public class EnemySpawning : MonoBehaviour {
             }
 
             while (waveStrength > 0) {
-
-                //Debug.Log("Wave strength remaining: " + waveStrength);
-
                 Vector3 spawningPosition = Utils.GenerateRandomPosition(UnityEngine.Random.Range(minSpawningDistance, maxSpawningDistance), transform.position);
 
                 switch (enemySpawningGeneratorList[UnityEngine.Random.Range(0, enemySpawningGeneratorList.Count)]) {

@@ -79,8 +79,6 @@ public class Turret : Building{
         if (target != null && target.transform.position != Vector3.zero) {
             target.ModifyHealth(-1 * GetDamage());
 
-            //Debug.Log("attacked target at:" + target.transform.position);
-
             cooldown = 0;
             target = null;
         }

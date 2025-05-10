@@ -45,7 +45,6 @@ public static class SaveSystem{
 
 
         string saveDataJSON = JsonUtility.ToJson(save, true);
-        //Debug.Log(saveDataJSON);
 
         DirectoryInfo directoryInfo = new DirectoryInfo(SAVE_FOLDER);
         FileInfo[] saveFiles = directoryInfo.GetFiles("*.txt");
@@ -95,7 +94,6 @@ public static class SaveSystem{
             ReferenceList.GameHandler.MainMenu();
             ReferenceList.PopupMessageHandler.CreateMessage("Game could not be loaded, probably because it's from an older version.", "Error");
         }
-        //Debug.Log(ResourceManager.GetEnergy() + " load ended");
 
         UI_Assistant.ClearGameMessages();
     }

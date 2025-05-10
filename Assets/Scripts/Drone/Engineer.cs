@@ -23,7 +23,6 @@ public class Engineer : Drone {
         TimeTickSystem.OnTick += RepairTickUpdate;
     }
 
-    // Update is called once per frame
     public void Update() {
         HandleMovement();
     }

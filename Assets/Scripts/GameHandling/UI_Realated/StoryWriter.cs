@@ -77,8 +77,6 @@ public class StoryWriter : MonoBehaviour{
         // write out story
         if (titleList != null && titleList.Count != 0 && titleTextBox != null && bodyTextBox != null) {
             timer -= Time.deltaTime;
-
-            //Debug.Log(timer + "; " + Time.deltaTime);
             while (timer <= 0f) {
 
                 titleTextBox.text = titleList[0].Substring(0, titleCharacterIndex);

@@ -20,7 +20,6 @@ public class Guardian : Drone{
         TimeTickSystem.OnTick += AttackTickUpdate;
     }
 
-    // Update is called once per frame
     public void Update() {
         HandleMovement();
     }
@@ -68,8 +67,6 @@ public class Guardian : Drone{
         if (targetList.Count > 0) {
             foreach (Enemy target in targetList) {
                 target.ModifyHealth(-1 * GetDamage());
-
-                //Debug.Log("attacked target at:" + target.transform.position);
             }
             targetList.Clear();
             cooldown = 0;

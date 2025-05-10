@@ -48,7 +48,6 @@ public class BuildingGridSystem : MonoBehaviour {
             
             if (Input.GetMouseButtonUp(0) && Input.mousePosition.x < Screen.width - 300 * Screen.height / 720) {
                 Debug.Log("Placing Building");
-                //TODO: GridAlignment and actual building
                 bool occupied = false;
 
                 // checking if space is occupied by resources

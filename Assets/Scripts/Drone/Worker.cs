@@ -127,7 +127,6 @@ public class Worker : Drone{
             float distanceAfterMoving = Vector3.Distance(newPosition, waypoint);
 
             if (distanceAfterMoving > distance) {
-                //overshot the target
                 newPosition = waypoint;
             }
 

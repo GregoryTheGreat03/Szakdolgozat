@@ -163,12 +163,10 @@ public class GameHandler : MonoBehaviour {
         Debug.Log(gameData);
         if (gameData != null) {
             SetGameCompleted(gameData.gameCompleted);
-            Debug.Log("lefut");
         }
     }
 
     private void Update() {
-        //Debug.Log(gameState);
         switch (gameState) {
             case GameState.mainMenu:
                 break;

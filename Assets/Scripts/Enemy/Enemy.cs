@@ -73,7 +73,6 @@ public class Enemy : MonoBehaviour{
             float distanceAfterMoving = Vector3.Distance(newPosition, waypoint);
 
             if (distanceAfterMoving > distance) {
-                //overshot the target
                 newPosition = waypoint;
             }
 
@@ -85,7 +84,6 @@ public class Enemy : MonoBehaviour{
         if (target == null) {
             if (Utils.PositionDistance(wanderingPosition, transform.position) == 0) {
                 wanderingPosition = Utils.GenerateRandomPosition(UnityEngine.Random.Range(0f, MAXIMUM_WANDERING_DISTANE), transform.position);
-                //Debug.Log("Wandering position set. Distance: "+ Utils.PositionDistance(wanderingTargetPosition, transform.position));
             }
 
             SetGetFollowPositionFunc(() => wanderingPosition);
@@ -94,7 +92,6 @@ public class Enemy : MonoBehaviour{
 
     protected void CooldownTickUpdate(object sender, TimeTickSystem.OnTickEventArgs args) {
         if (cooldown < enemySO.COOLDOWN) {
-            //Debug.Log("on cd:" + cooldown + "/" + enemySO.COOLDOWN);
             cooldown += TimeTickSystem.TICK_TIMER_MAX;
             if (cooldown > enemySO.COOLDOWN) {
                 cooldown = enemySO.COOLDOWN;
@@ -180,9 +177,6 @@ public class Enemy : MonoBehaviour{
             
             if (target.TryGetComponent<Building>(out Building building) && building.GetHealth() > 0 && Physics2D.Distance(gameObject.GetComponent<Collider2D>(), target.GetComponent<Collider2D>()).distance <= 0) {
                 building.ModifyHealth(-1 * enemySO.DAMAGE);
-
-                //Debug.Log("damaged building " + enemySO.DAMAGE);
-
                 cooldown = 0;
                 if (target.IsDestroyed()) {
                     target = null;
@@ -191,9 +185,6 @@ public class Enemy : MonoBehaviour{
 
             else if (target.TryGetComponent<Drone>(out Drone drone) && drone.GetHealth() > 0 && Physics2D.Distance(gameObject.GetComponent<Collider2D>(), target.GetComponent<Collider2D>()).distance <= 0) {
                 drone.ModifyHealth(-1 * enemySO.DAMAGE);
-
-                //Debug.Log("damaged drone " + enemySO.DAMAGE);
-
                 cooldown = 0;
                 if (target.IsDestroyed()) {
                     target = null;

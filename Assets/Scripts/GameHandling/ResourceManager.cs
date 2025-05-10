@@ -122,10 +122,6 @@ public class ResourceManager : MonoBehaviour{
                     Destroy(droneList[random].gameObject);
                     droneList.RemoveAt(random);
                 }
-                else if (buildingList.Count != 0) {
-                    // TODO
-                    break;
-                }
                 break;
             }
             energy += amount;

@@ -36,15 +36,12 @@ public class FusionReactor : Building {
             foreach (Collider2D collider2D in colliderArray) {
                 if (collider2D.TryGetComponent<Enemy>(out Enemy enemy)) {
                     enemy.ModifyHealth(-1 * explosionDamage);
-                    // Debug.Log("explosion: " + enemy.GetEnemySO().NAME + " " + explosionDamage);
                 }
                 else if (collider2D.TryGetComponent<Building>(out Building building)) {
                     building.ModifyHealth(-1 * explosionDamage);
-                    // Debug.Log("explosion: " + building.GetBuildingSO().NAME + " " + explosionDamage);
                 }
                 else if (collider2D.TryGetComponent<Drone>(out Drone drone)) {
                     drone.ModifyHealth(-1 * explosionDamage);
-                    // Debug.Log("explosion: " + drone.GetDroneSO().NAME + " " + explosionDamage);
                 }
             }
         }

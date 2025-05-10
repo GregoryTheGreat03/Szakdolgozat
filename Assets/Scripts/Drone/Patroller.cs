@@ -16,7 +16,6 @@ public class Patroller : Drone{
         TimeTickSystem.OnTick += AttackTickUpdate;
     }
 
-    // Update is called once per frame
     public void Update(){
         HandleMovement();
     }

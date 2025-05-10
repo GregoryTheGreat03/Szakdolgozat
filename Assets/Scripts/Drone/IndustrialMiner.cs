@@ -129,7 +129,6 @@ public class IndustrialMiner : Drone {
             float distanceAfterMoving = Vector3.Distance(newPosition, waypoint);
 
             if (distanceAfterMoving > distance) {
-                //overshot the target
                 newPosition = waypoint;
             }
 

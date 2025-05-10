@@ -100,7 +100,6 @@ public class Drone : MonoBehaviour {
             float distanceAfterMoving = Vector3.Distance(newPosition, waypoint);
 
             if (distanceAfterMoving > distance) {
-                //overshot the target
                 newPosition = waypoint;
             }
 
@@ -137,8 +136,6 @@ public class Drone : MonoBehaviour {
     protected virtual void AttackTickUpdate(object sender, TimeTickSystem.OnTickEventArgs args) {
         if (target != null && target.transform.position != Vector3.zero) {
             target.ModifyHealth(-1 * GetDamage());
-
-            //Debug.Log("attacked target: " + target.GetEnemySO().NAME + "\n at: " + target.transform.position);
 
             cooldown = 0;
             target = null;

@@ -239,8 +239,6 @@ public class BetweenMissionsUI_Assistant : MonoBehaviour {
         enemyNameText = enemyDatabaseEnemyNameDisplay.GetComponent<Text>();
         enemyDescriptionText = enemyDatabaseEnemyDescriptionDisplay.GetComponent<Text>();
         enemyStatisticsText = enemyDatabaseEnemyStatisticsDisplay.GetComponent<Text>();
-
-        //messageSystem.BetweenMissionsDisplayUpdate();
     }
 
     private void UpdateDisplay(object sender, MessageSystem.BetweenMissionsDisplayUpdateEventArgs args) {
@@ -452,7 +450,6 @@ public class BetweenMissionsUI_Assistant : MonoBehaviour {
                     case 1: { constructionOnShipAssemblyDisplay.GetComponent<RectTransform>().sizeDelta = new Vector2(234, 200); break; }
                 }
 
-                // TODO: are you sure check
                 constructionOnShipStartConstructionButton.onClick.RemoveAllListeners();
                 constructionOnShipStartConstructionButton.onClick.AddListener(() => {
                     Utils.GetIntFromInputField(constructionOnShipAssemblyLine1InputField, out int assemblyLine1Amount);
